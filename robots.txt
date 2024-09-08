@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://dnl2k.github.io/sitemap.xml
