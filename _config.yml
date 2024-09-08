@@ -122,21 +122,13 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:dnl2kclone1@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-google-scholar"
       url: "https://scholar.google.com/citations?hl=en&user=h2ANUygAAAAJ"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dnl2k"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+
 
 # Site Footer
 footer:
