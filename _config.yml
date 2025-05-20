@@ -118,6 +118,7 @@ author:
   bio              : "PhD Student at University of Buffalo DRONES/ Wireless Lab"
   location         : "Buffalo, NY"
   email            :
+  googlescholar: https://scholar.google.com/citations?hl=en&user=h2ANUygAAAAJ
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
