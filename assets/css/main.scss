@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .page__content p > img {
-  max-width: 70% !important;
+  max-width: 500px !important;
   height: auto;
   display: block;
   margin: 1.5em auto;
@@ -23,4 +23,19 @@ search: false
   max-width: 720px;
   line-height: 1.6;
   font-size: 1.1rem;
+}
+
+.page__content figure {
+  max-width: 500px;
+  margin: 1.5em auto;
+  border-radius: 6px;
+  /* Optional: add border, background, or shadow */
+}
+
+.page__content figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
 }
