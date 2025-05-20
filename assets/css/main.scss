@@ -7,37 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.initial-content {
-  max-width: 720px;      /* limit line length */
-  margin-left: auto;
-  margin-right: auto;    /* center horizontally */
-  padding: 0 1.5rem;     /* side padding */
-  line-height: 1.6;
-  font-size: 1.1rem;
-}
-
-.initial-content p {
-  margin-bottom: 1.25em; /* space between paragraphs */
-}
-
-.initial-content figure {
-  max-width: 70%;        /* image and caption width */
-  margin: 2em auto;      /* center figure with vertical margin */
-  border-radius: 6px;
-}
-
-.initial-content img {
-  width: 100%;           /* fill figure width responsively */
-  height: auto;
-  display: block;
-  border-radius: 6px;
-}
-
-.initial-content figcaption {
-  font-size: 0.9rem;
-  color: #666;
-  text-align: center;
-  margin-top: 0.5em;
-  font-style: italic;
-}
