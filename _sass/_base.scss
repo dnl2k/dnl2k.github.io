@@ -11,7 +11,7 @@
 //   margin-bottom: 1.25em;
 // }
 
-.layout--post .page__content {
+.page__content {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -20,11 +20,11 @@
   font-size: 1.1rem;
 }
 
-.layout--post .page__content p {
+.page__content p {
   margin-bottom: 1.25em;
 }
 
-.layout--post .page__content img {
+.page__content img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -32,7 +32,7 @@
   border-radius: 6px;
 }
 
-.layout--post .page__content figure {
+.page__content figure {
   max-width: 70%;
   margin: 1.5em auto;
   border-radius: 6px;
