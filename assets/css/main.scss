@@ -7,3 +7,20 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+article.page .page__content img {
+  max-width: 70%;      /* Adjust this as you like */
+  height: auto;
+  display: block;
+  margin: 1em auto;    /* Center images with margin above/below */
+  border-radius: 6px;  /* Optional: subtle rounding */
+}
+
+/* Adjust margins/padding for post text */
+article.page .page__content {
+  margin-left: 20px;   /* or padding-left */
+  margin-right: 20px;  /* or padding-right */
+  max-width: 720px;    /* Optional: max width for readability */
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
