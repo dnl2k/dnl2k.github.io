@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Long Duong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD Candidate at University of Buffalo DRONES/ Wireless Lab"
+  avatar           : "/assets/img/Long_Duong.jpg"
+  bio              : "PhD Student at University of Buffalo DRONES/ Wireless Lab"
   location         : "Buffalo, NY"
   email            :
   links:
