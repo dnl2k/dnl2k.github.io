@@ -9,7 +9,7 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% include base_path %}
+{% include base_path.html %}
 
 Kejsi Take, Jordyn Young, **Rasika Bhalerao**, Kevin Gallagher, Andrea Forte, Damon McCoy, and Rachel Greenstadt,
 "[What to Expect When You’re Accessing: An Exploration of User Privacy Rights in People Search Websites](https://doi.org/10.56553/popets-2024-0118)," Proceedings on Privacy Enhancing Technologies Symposium **(PoPETS 2024)**.
