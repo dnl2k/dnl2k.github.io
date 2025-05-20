@@ -17,12 +17,11 @@ search: false
 }
 
 .page__content {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1rem;
-  max-width: 720px;
-  line-height: 1.6;
-  font-size: 1.1rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  max-width: 720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .page__content figure {
