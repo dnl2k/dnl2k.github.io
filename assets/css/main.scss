@@ -8,19 +8,26 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-article.page .page__content img {
-  max-width: 70%;      /* Adjust this as you like */
-  height: auto;
-  display: block;
-  margin: 1em auto;    /* Center images with margin above/below */
-  border-radius: 6px;  /* Optional: subtle rounding */
+/* Override image size and centering in blog posts */
+.page__content img,
+.archive__item img,
+.entry__image img {
+  max-width: 70% !important;   /* Constrain image width */
+  height: auto !important;
+  display: block !important;
+  margin: 1em auto !important; /* Center images */
+  border-radius: 6px;
 }
 
-/* Adjust margins/padding for post text */
-article.page .page__content {
-  margin-left: 20px;   /* or padding-left */
-  margin-right: 20px;  /* or padding-right */
-  max-width: 720px;    /* Optional: max width for readability */
-  line-height: 1.6;
-  font-size: 1.1rem;
+/* Constrain and center text content for better readability */
+.page__content,
+.archive__item,
+.entry__content {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 720px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  line-height: 1.6 !important;
+  font-size: 1.1rem !important;
 }
