@@ -7,3 +7,38 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.layout--post .page__content {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.layout--post .page__content p {
+  margin-bottom: 1.25em;
+}
+
+.layout--post .page__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 6px;
+}
+
+.layout--post .page__content figure {
+  max-width: 70%;
+  margin: 1.5em auto;
+  border-radius: 6px;
+}
+
+.layout--post .page__content figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
+}
