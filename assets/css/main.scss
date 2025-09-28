@@ -42,3 +42,64 @@ search: false
   margin-top: 0.5em;
   font-style: italic;
 }
+
+// Custom post_custom layout styling to match homepage grey theme
+.home {
+  background-color: #f3f3f3; /* Light grey background like homepage */
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.home .page__content {
+  background-color: #494e52; /* Dark grey background for content */
+  color: #ffffff; /* White text */
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff; /* White title */
+}
+
+.post-meta {
+  color: #b8bcc8; /* Light grey for meta text */
+  font-size: 0.9rem;
+}
+
+.home .page__content p {
+  color: #ffffff; /* White paragraph text */
+}
+
+.home .page__content figcaption {
+  color: #b8bcc8; /* Light grey for captions */
+}
+
+.post-tags {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #5a5f66; /* Darker border for dark background */
+  font-size: 0.9rem;
+}
+
+.post-tags strong {
+  color: #ffffff; /* White text for "Tags:" label */
+}
+
+.tag {
+  background-color: #5a5f66; /* Darker grey tag background */
+  color: #ffffff; /* White tag text */
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
