@@ -18,7 +18,7 @@ main:
     
   - title: "CV"
   # Add the shared drive link to my CV
-    url: 
+    url: /assets/cv/Resume_250927.pdf
     
   - title: "Publications"
     url: /publications/
